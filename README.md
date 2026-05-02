@@ -1,6 +1,9 @@
 # Modern Education Landing Page
 
 A high-performance, visually stunning, and fully responsive landing page for educational platforms. This project focuses on modern UI/UX principles, featuring a pixel-perfect design converted into a functional web interface.
+
+[![Live Demo](https://img.shields.io/badge/demo-live-brightgreen)](https://education-website-landing-page-eta.vercel.app/)
+
 <div>
   <img src="./public/design.png" alt="design" />
 </div>
