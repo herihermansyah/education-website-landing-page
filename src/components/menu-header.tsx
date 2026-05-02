@@ -17,7 +17,7 @@ const menuHeader = [
     id: 3,
     title: "Courses",
     href: "#",
-    children: [{id: 31, title: "Courses2sdfsdfsdfsdfsdf", href: "/"}],
+    children: [{id: 31, title: "Courses2", href: "/"}],
   },
   {
     id: 4,
