@@ -1,36 +1,61 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Modern Education Landing Page
 
-## Getting Started
+A high-performance, visually stunning, and fully responsive landing page for educational platforms. This project focuses on modern UI/UX principles, featuring a pixel-perfect design converted into a functional web interface.
+<div>
+  <img src="./public/design.png" alt="design" />
+</div>
 
-First, run the development server:
+## 🚀 Tech Stack
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Framework:** [Next.js 16](https://nextjs.org/) (App Router)
+- **Library:** [React 19](https://react.dev/)
+- **Language:** [TypeScript](https://www.typescriptlang.org/)
+- **Styling:** [Tailwind CSS v4](https://tailwindcss.com/) (PostCSS)
+- **UI Components:** [Shadcn UI](https://ui.shadcn.com/) & [Radix UI](https://www.radix-ui.com/)
+- **Icons:** [Lucide React](https://lucide.dev/) & [React Icons](https://react-icons.github.io/react-icons/)
+- **Animations:** [tw-animate-css](https://github.com/m-pinto/tw-animate-css)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## ✨ Key Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Cutting-Edge Stack:** Built using the latest versions of Next.js and Tailwind CSS for superior performance and developer experience.
+- **Fully Responsive:** Seamlessly optimized for mobile, tablet, and desktop screens.
+- **Modern UI/UX:** Clean, professional, and engaging design tailored for educational services.
+- **Optimized Components:** Built with reusable and accessible components using Shadcn UI.
+- **Type Safety:** Fully typed with TypeScript to ensure code quality and maintainability.
+- **Fast Performance:** Optimized with the new React Compiler for efficient rendering.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🛠️ Installation & Setup
 
-## Learn More
+1.  **Clone the repository:**
+    ```bash
+    git clone [https://github.com/your-username/education-website-landing-page.git](https://github.com/your-username/education-website-landing-page.git)
+    ```
 
-To learn more about Next.js, take a look at the following resources:
+2.  **Navigate to the project directory:**
+    ```bash
+    cd education-website-landing-page
+    ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+3.  **Install dependencies:**
+    ```bash
+    npm install
+    ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+4.  **Run the development server:**
+    ```bash
+    npm run dev
+    ```
 
-## Deploy on Vercel
+5.  **Open in your browser:**
+    Visit [http://localhost:3000](http://localhost:3000) to see the result.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📁 Project Structure
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```text
+├── app/              # Next.js App Router (Pages, Layouts)
+├── components/       # Reusable UI components (Shadcn, etc.)
+├── public/           # Static assets (Images, Fonts)
+├── lib/              # Utility functions (cn, etc.)
+└── tailwind.config.js # Tailwind CSS configuration
+📝 License
+This project is open-source and available under the MIT License.
